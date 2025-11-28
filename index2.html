@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كوتش سيف | نورت يا دبابة</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;800;900&display=swap" rel="stylesheet">
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            background: linear-gradient(rgba(0,0,0,0.92), rgba(0,0,0,0.92)),
+                        url('https://images.pexels.com/photos/1552242/1552242_pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') center/cover fixed;
+            color: white;
+            font-family: 'Cairo', sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        nav {
+            background: #000;
+            padding: 18px;
+            text-align: center;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 20px rgba(0,255,0,0.3);
+        }
+        nav a {
+            color: #00ff00;
+            margin: 0 20px;
+            font-size: 24px;
+            text-decoration: none;
+            font-weight: 900;
+            padding: 10px 20px;
+            border-radius: 12px;
+            transition: 0.3s;
+        }
+        nav a:hover { background:#00ff00; color:black; border-radius:12px; }
+
+        .welcome {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .welcome img {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            border: 8px solid #ffbf00;
+            box-shadow: 0 0 40px #ffbf00;
+            object-fit: cover;
+        }
+        .welcome h1 {
+            font-size: 62px;
+            color: #ffbf00;
+            margin: 25px 0;
+            text-shadow: 0 0 30px #000;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            max-width: 1200px;
+            margin: 0 auto 60px;
+        }
+        .dash-card {
+            background: linear-gradient(135deg, rgba(40,40,40,0.9), rgba(10,10,10,0.95));
+            border-radius: 25px;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+            border: 2px solid #333;
+            transition: all 0.4s;
+        }
+        .dash-card:hover {
+            transform: translateY(-15px);
+            border-color: #ffbf00;
+            box-shadow: 0 20px 40px rgba(255,191,0,0.4);
+        }
+        .dash-card h2 {
+            font-size: 32px; color: #00ffea; margin-bottom: 15px; }
+        .dash-card p { font-size: 20px; color: #ccc; }
+        .dash-card a {
+            display: block;
+            margin-top: 20px;
+            background: #ff0000;
+            color: white;
+            padding: 15px;
+            border-radius: 15px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 22px;
+            transition: 0.3s;
+        }
+        .dash-card a:hover { background:#ff4500; transform:scale(1.05); }
+
+.whatsapp {
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    width: 68px;
+    height: 68px;
+    background: #25D366;
+    border-radius: 50%;
+    box-shadow: 0 5px 25px rgba(37,211,102,0.7);
+    z-index: 1000;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.whatsapp img {
+    width: 45px;
+    height: 45px;
+}
+.whatsapp:hover {
+    transform: scale(1.15);
+    box-shadow: 0 8px 30px rgba(37,211,102,0.9);
+}
+.whatsapp-btn {
+    position: fixed;
+    bottom: 28px;
+    left: 28px;
+    width: 66px;
+    height: 66px;
+    background: #25D366;
+    border-radius: 50%;
+    box-shadow: 0 6px 22px rgba(37,211,102,0.8);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid #fff;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.1) rotate(15deg);
+    box-shadow: 0 10px 30px rgba(37,211,102,1);
+}
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #00ffea;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="Nasa3h.html">نصايح</a>
+        <a href="fails.html">ممنوعات</a>
+        <a href="protin.html">بروتين</a>
+        <a href="kabsolat.html">مكملات</a>
+        <a href="index.html">خروج</a>
+    </nav>
+
+    <div class="welcome">
+        <img src="https://up6.cc/2025/10/176436857770521.jpeg" alt="كوتش سيف">
+        <h1>نورت يا دبابة 🔥</h1>
+    </div>
+
+    <div class="cards">
+        <div class="dash-card">
+            <h2>نصايح</h2>
+            <p>أقوى النصايح من القلب للنتيجة المضمونة</p>
+            <a href="Nasa3h.html">ادخل دلوقتي</a>
+        </div>
+        <div class="dash-card">
+            <h2>ممنوعات</h2>
+            <p>إيه اللي لازم تتجنبه عشان متضيعش مجهودك</p>
+            <a href="fails.html">شوف بنفسك</a>
+        </div>
+        <div class="dash-card">
+            <h2>البروتين</h2>
+            <p>ملك الجيم.. إزاي توصل للكمية المطلوبة</p>
+            <a href="protin.html">أهم مصادر البروتين</a>
+        </div>
+        <div class="dash-card">
+            <h2>مكملات</h2>
+            <p>أأمن وأقوى 3 مكملات فقط (مش أكتر)</p>
+            <a href="kabsolat.html">اختار صح</a>
+        </div>
+    </div>
+
+<a href="https://wa.me/201157008167" target="_blank" class="whatsapp-btn" title="كلمني على واتساب">
+    <svg viewBox="0 0 32 32" width="38" height="38" fill="white">
+        <path d="M16.09 1.99C8.04 1.99 1.5 8.53 1.5 16.58c0 2.57.63 5.01 1.74 7.18l-1.85 6.77 6.95-1.82c2.1 1.14 4.46 1.74 6.85 1.74 8.05 0 14.59-6.54 14.59-14.59-.01-8.04-6.55-14.58-14.59-14.58zM16.09 29.28c-2.15 0-4.25-.57-6.08-1.65l-.43-.26-4.05 1.06 1.08-3.95-.28-.44c-1.21-1.92-1.85-4.14-1.85-6.41 0-6.74 5.48-12.22 12.22-12.22 6.74 0 12.22 5.48 12.22 12.22s-5.48 12.22-12.22 12.22z"/>
+        <path d="M12.38 9.79c-.26-.13-.6-.12-.84.03-.24.15-.92.9-.92 2.2 0 1.29.94 2.54 1.07 2.71.13.17 1.85 2.98 4.57 4.18 2.72 1.2 2.72.8 3.21.75.49-.05 1.59-.65 1.81-1.27.22-.62.22-1.15.16-1.27-.06-.12-.22-.19-.46-.32-.24-.13-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.21-1.43-1.35-1.67-.14-.24-.01-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78z"/>
+    </svg>
+</a>
+    <footer>
+        <p><i>كوتش سيف – كل اللي محتاجه عشان تبقى دبابة | 01157008167</i></p>
+    </footer>
+
+</body>
+</html>

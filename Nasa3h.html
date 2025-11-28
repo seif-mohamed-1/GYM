@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نصايح وإرشادات | كوتش سيف</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;800;900&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #0a0a0a;
+            color: white;
+            font-family: 'Cairo', sans-serif;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        nav {
+            background: #000;
+            padding: 18px;
+            text-align: center;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(0,255,0,0.2);
+        }
+        nav a {
+            color: #00ff00;
+            margin: 0 18px;
+            font-size: 22px;
+            text-decoration: none;
+            font-weight: 800;
+            padding: 8px 15px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            background: #00ff00;
+            color: black;
+        }
+        h1 {
+            text-align: center;
+            font-size: 48px;
+            color: #ffbf00;
+            margin: 30px 0;
+            text-shadow: 0 0 25px rgba(255,191,0,0.5);
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 28px;
+        }
+        .tip-card {
+            background: linear-gradient(135deg, rgba(30,30,30,0.95), rgba(10,10,10,0.98));
+            border-radius: 25px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+            border: 2px solid #333;
+            transition: all 0.4s;
+            text-align: center;
+        }
+        .tip-card:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 25px 50px rgba(255,191,0,0.35);
+            border-color: #ffbf00;
+        }
+        .tip-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+        .tip-card .content {
+            padding: 25px 20px;
+        }
+        .tip-card h2 {
+            font-size: 28px;
+            color: #00ffea;
+            margin-bottom: 15px;
+        }
+        .tip-card p {
+            font-size: 20px;
+            color: #ddd;
+            line-height: 1.9;
+        }
+        .icon {
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+        .final {
+            grid-column: 1 / -1;
+            background: linear-gradient(135deg, #ff0000, #ff4500);
+            color: white;
+            padding: 40px;
+            border-radius: 30px;
+            font-size: 52px;
+            font-weight: 900;
+            text-align: center;
+            box-shadow: 0 0 40px #ff0000;
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            margin: 70px 0 20px;
+            color: #00ffea;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="Nasa3h.html">نصايح</a>
+        <a href="fails.html">ممنوعات</a>
+        <a href="protin.html">بروتين</a>
+        <a href="kabsolat.html">مكملات</a>
+        <a href="index2.html">الرئيسية</a>
+    </nav>
+
+    <h1>نصايح من القلب يا وحش 💪</h1>
+
+    <div class="container">
+
+        <div class="tip-card">
+            <img src="https://images.pexels.com/photos/843700/pexels-photo-843700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="تمرين جيم">
+            <div class="content">
+                <div class="icon">💪</div>
+                <h2>ابدأ خفيف ومتستعجلش</h2>
+                <p>أول شهرين ركز على الأداء الصحيح (Form) مش على الأوزان التقيلة عشان تتجنب الإصابات</p>
+            </div>
+        </div>
+
+        <div class="tip-card">
+            <img src="https://images.pexels.com/photos/935777/pexels-photo-935777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="نوم">
+            <div class="content">
+                <div class="icon">😴</div>
+                <h2>النوم = نمو عضلي</h2>
+                <p>لازم تنام من 7-9 ساعات يوميًا.. دي الفترة اللي العضلة بتتبني فيها فعليًا</p>
+            </div>
+        </div>
+
+        <div class="tip-card">
+            <img src="https://images.pexels.com/photos/4165283/pexels-photo-4165283.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="مياه">
+            <div class="content">
+                <div class="icon">💧</div>
+                <h2>اشرب ميه كتير جدًا</h2>
+                <p>من 3.5 إلى 4.5 لتر يوميًا.. الميه بتساعد على حرق الدهون وبناء العضل</p>
+            </div>
+        </div>
+
+
+        <div class="tip-card">
+            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="تسخين قبل التمرين">
+            <div class="content">
+                <div class="icon">🔥</div>
+                <h2>التسخين إجباري</h2>
+                <p>10-15 دقيقة تسخين قبل أي تمرين.. ده بيحميك من الإصابات 90%</p>
+            </div>
+        </div>
+
+
+        <div class="tip-card">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="الصبر مفتاح النتيجة">
+            <div class="content">
+                <div class="icon">⏳</div>
+                <h2>الصبر مفتاح النتيجة</h2>
+                <p>أول 3 شهور هتشوف تغيير بسيط.. بعد 6 شهور هتتصدم من جسمك!</p>
+            </div>
+        </div>
+        <div class="tip-card">
+            <img src="https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="أكل نضيف">
+            <div class="content">
+                <div class="icon">🍗</div>
+                <h2>الأكل النضيف = 70% من النتيجة</h2>
+                <p>من غير أكل بيت ومنتظم مفيش جسم هيتبني مهما تتمرن</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="final">
+        بالتوفيق يا بطل.. النتيجة جاية لا محالة 🔥💪
+    </div>
+
+    <footer>
+        <p><i>كوتش سيف – تواصل واتساب: 01157008167</i></p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>البروتين | كوتش سيف</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;800;900&display=swap" rel="stylesheet">
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            background: #0a0a0a;
+            color: white;
+            font-family: 'Cairo', sans-serif;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        nav {
+            background: #000;
+            padding: 18px;
+            text-align: center;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(0,255,0,0.2);
+        }
+        nav a {
+            color: #00ff00;
+            margin: 0 18px;
+            font-size: 22px;
+            text-decoration: none;
+            font-weight: 800;
+            padding: 8px 15px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+        nav a:hover { background:#00ff00; color:black; }
+        
+        h1 {
+            text-align: center;
+            font-size: 52px;
+            color: #ffbf00;
+            margin: 20px 0 40px;
+            text-shadow: 0 0 30px #ffbf00;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 28px;
+        }
+        .protein-card {
+            background: linear-gradient(135deg, #332200, #1a1100);
+            border-radius: 25px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(255,191,0,0.4);
+            border: 2px solid #554400;
+            transition: all 0.4s;
+            text-align: center;
+            position: relative;
+        }
+        .protein-card:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 25px 50px rgba(255,191,0,0.6);
+            border-color: #ffbf00;
+        }
+        .protein-card img {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            filter: brightness(0.9);
+        }
+        .protein-card .content {
+            padding: 25px 20px;
+        }
+        .protein-card h2 {
+            font-size: 30px;
+            color: #00ffea;
+            margin-bottom: 12px;
+        }
+        .protein-card p {
+            font-size: 20px;
+            color: #ffddaa;
+        }
+        .crown {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            font-size: 50px;
+            background: #000;
+            padding: 8px;
+            border-radius: 50%;
+        }
+        .calc {
+            grid-column: 1 / -1;
+            background: linear-gradient(135deg, #ffbf00, #ff9100);
+            color: black;
+            padding: 40px;
+            border-radius: 30px;
+            text-align: center;
+            font-size: 36px;
+            font-weight: 900;
+            margin-top: 30px;
+            box-shadow: 0 0 40px #ffbf00;
+        }
+        footer {
+            text-align: center;
+            margin: 70px 0 20px;
+            color: #00ffea;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="Nasa3h.html">نصايح</a>
+        <a href="fails.html">ممنوعات</a>
+        <a href="protin.html">بروتين</a>
+        <a href="kabsolat.html">مكملات</a>
+        <a href="index2.html">الرئيسية</a>
+    </nav>
+
+    <h1>البروتين = ملك الجيم 👑</h1>
+
+    <div class="container">
+
+<div class="protein-card">
+    <div class="crown">Egg</div>
+    <img src="https://up6.cc/2025/10/176436819348731.png" alt="البيييييييض">
+    <div class="content">
+        <h2>البيض</h2>
+        <p>4 بيضات كاملة = 24-28 جم بروتين<br>أرخص وأقوى مصدر طبيعي</p>
+    </div>
+</div>
+
+        <div class="protein-card">
+            <div class="crown">🍗</div>
+            <img src="https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="صدور فراخ">
+            <div class="content">
+                <h2>صدور الفراخ</h2>
+                <p>100 جم = 30 جم بروتين نقي<br>ملك البروتين في الأكل البيتي</p>
+            </div>
+        </div>
+
+        <div class="protein-card">
+            <div class="crown">🥩</div>
+            <img src="https://images.pexels.com/photos/65175/pexels-photo-65175.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="لحم">
+            <div class="content">
+                <h2>اللحمة قليلة الدهن</h2>
+                <p>100 جم = 25-28 جم بروتين<br>اختار الكتف أو الفليه</p>
+            </div>
+        </div>
+
+        <div class="protein-card">
+            <div class="crown">🐟</div>
+            <img src="https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="سمك">
+            <div class="content">
+                <h2>السمك والتونة</h2>
+                <p>علبة تونة مصفاة = 25-30 جم بروتين<br>سريع وسهل</p>
+            </div>
+        </div>
+
+        <div class="protein-card">
+            <div class="crown">🧀</div>
+            <img src="https://images.pexels.com/photos/773253/pexels-photo-773253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="جبنة قريش">
+            <div class="content">
+                <h2>الجبنة القريش والزبادي</h2>
+                <p>كوباية جبنة قريش = 25 جم بروتين<br>خفيفة على المعدة</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="calc">
+        الكمية اليومية المطلوبة = وزنك × 1.8 - 2.2 جم بروتين<br>
+        مثال: لو وزنك 80 كيلو → لازم 144-176 جم بروتين يوميًا!
+    </div>
+
+    <footer>
+        <p><i>كوتش سيف – كل البروتين من الأكل البيتي أولاً | واتساب: 01157008167</i></p>
+    </footer>
+
+</body>
+</html>
